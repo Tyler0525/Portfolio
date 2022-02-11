@@ -369,7 +369,7 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size:25px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -877,7 +877,7 @@ section .container {
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 6px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -921,6 +921,24 @@ section .container {
   bottom: 15px;
   right: 15px;
 }
+/*******Project Cards Styles*******/
+.projectCard {
+  width: 19rem;
+  background-color: #1f1f1f;
+
+}
+
+
+/*****Modal Card Style*****/
+
+.modal-content {
+  background-color: #1f1f1f !important;
+}
+.btn {
+  color: #ff7c12;
+  background-color: #000000;
+
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -935,13 +953,17 @@ section .container {
   bottom: 0;
   overflow-y: auto;
 }
+.section-title p{
+  padding-top: 40px;
+  font-size: 16px;
+}
 
 .portfolio-details .container {
   padding-top: 20px;
   padding-bottom: 40px;
 }
 
-.portfolio-details .portfolio-title {
+.codingChallenges .portfolio-title {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -967,7 +989,7 @@ section .container {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-info p {
+.codingChallenges .portfolio-info p {
   font-size: 15px;
   padding: 15px 0 0 0;
 }
